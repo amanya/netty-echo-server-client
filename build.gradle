@@ -1,0 +1,17 @@
+project(':server') {
+}
+
+project(':client') {
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'application'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+}
+
